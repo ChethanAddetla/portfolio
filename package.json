@@ -1,7 +1,7 @@
 {
+  "homepage": "https://ChethanAddetla.github.io/portfolio",
   "name": "portfolio-react",
   "version": "0.1.0",
-  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
