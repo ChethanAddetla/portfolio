@@ -1,10 +1,5 @@
 **Portfolio**
-Live Preview - [Click Here](https://salesp07.github.io/)
+Live Preview - [Click Here](https://saichethan.onrender.com)
 
-<br/>
-<div align="center">
-  <img alt="Demo" src="public/mockup.png" />
-</div>
-<br/>
-<br/>
+
 
