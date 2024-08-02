@@ -19,8 +19,11 @@ export const Card = styled.div`
 
 export const CardLeft = styled.div`
   justify-self: center;
-  height: 100%;
+  height:100%;
+  
   img {
+    height:100%;
+    width:100%
     object-fit: cover;
   }
 `;

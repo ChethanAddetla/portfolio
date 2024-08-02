@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
+import man from "../assects/man-svgrepo-com.svg"
+import scrolldown from "../assects/scroll-down.svg"
+
 import {
   HeroContainer,
   HeroWrapper,
@@ -12,6 +15,7 @@ import {
 } from "./HeroElements";
 import { TypeAnimation } from 'react-type-animation';
 import ScrollAnimation from "react-animate-on-scroll";
+
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -94,7 +98,7 @@ function Hero() {
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/man-svgrepo-com.svg"
+                src={man}
                 alt="man-svgrepo"
               />
             </ScrollAnimation>
@@ -105,7 +109,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src="/scroll-down.svg"
+              src={scrolldown}
               alt="scroll-down"
             />
           </ScrollLink>

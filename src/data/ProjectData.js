@@ -1,17 +1,18 @@
 // --------------------------------------- Project List
 import realtimechat from "../assects/realtimechat.png"
+import tableau from "../assects/tableau.png"
 export const ProjectList = [
   {
     img: realtimechat,
     title: "Real Time Chat Application",
     description:
-      "A real-time chat application developed using the MERN stack (MongoDB, Express, React, Node.js), facilitating seamless communication and instant messaging.",
+      "A real-time chat application developed using the MERN stack (MongoDB, Express, React, Node.js), facilitating communication and instant messaging.",
     tech_stack: ["React.Js", "Express.Js", "Node.Js","MongoDB"],
     github_url: "https://github.com/ChethanAddetla/Chat-Application",
     demo_url: "https://realtime-chat-application-g25y.onrender.com/",
   },
   {
-    img: "/tableau.png",
+    img: tableau,
     title: "World Economic Indicator with Tableau",
     description:
       "A Tableau dashboard analyzing global economic indicators with filters for date, income, and region",
@@ -19,6 +20,7 @@ export const ProjectList = [
     github_url: "https://github.com/ChethanAddetla/World-Economic-Indicator-Tableau",
     demo_url: "",
   },
+  
  
 ];
 
